@@ -1,2 +1,2 @@
 # DefectMgt
-Defect management repository
+Defect management repository for Viscan Script
