@@ -1,0 +1,45 @@
+ViscanScript [Dashboard Testing]: Search Function Not Implemented Properly
+
+[Summary]
+  Search button works, however when doing a backspace to correct errors, it does not update again and displays nothing.
+
+[Precondition]
+ Software version
+ Software configuration
+ Hardware specifications
+ Network configuration
+
+[Steps to reproduce]
+ 1. Navigate Dashboard to any navigation option such as all
+ 2. Click on the search box
+ 3. Try and input random characters
+ 4. Backspace to delete the random characters
+ 5. Try and input a proper document name that exists in "All"
+
+
+[Actual results]
+ Results are inconsistent, breaks when doing backspaces
+
+[Expected results]
+ Backspacing to clear the field should not affect the search box
+
+[Additional information]
+ See attached logs and screenshot...
+
+[Is this Breakage?]
+ No, new implementation
+ 
+[Severity: How does this problem impact the customer/user?]
+ 7. Severe GUI, usability, and accessibility issue
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 9. High, if the database has a lot of documents in it
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ None
+
+[Impact Sizing (in days)]
+ Less than a day

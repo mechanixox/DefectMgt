@@ -1,0 +1,41 @@
+ViscanScript [Dashboard Testing]: Search Function Not Implemented Properly
+
+[Summary]
+  After populating all the fields and then clicking submit form, it does submit the form and button is not clickable
+
+[Precondition]
+ Software version
+ Software configuration
+ Hardware specifications
+ Network configuration
+
+[Steps to reproduce]
+ 1. Navigate Form
+ 2. Populate all the fields in the form
+ 3. Try clicking the submit button in the form
+
+
+
+[Actual results]
+ Button does not work
+
+[Expected results]
+ Button should submit the form
+
+[Is this Breakage?]
+ No, new implementation
+ 
+[Severity: How does this problem impact the customer/user?]
+ 10. Severe GUI, usability, and accessibility issue
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 10. High, no one can submit their documents if this function is broken
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ None
+
+[Impact Sizing (in days)]
+ Less than a day
