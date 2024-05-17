@@ -1,0 +1,44 @@
+ViscanScript [Components Testing]: Complete Order Not Working
+
+[Summary]
+  When clicking the complete button, it does not do anything to mark "complete" on the document.
+
+[Precondition]
+ Software version
+ Software configuration
+ Hardware specifications
+ Network configuration
+
+[Steps to reproduce]
+ 1. Navigate Dashboard to Ready
+ 2. Click on a Ready Document
+ 3. Navigate to the Right side to see 2 complete form buttons
+ 4. Try both buttons
+
+
+[Actual results]
+ Buttons are not clickable
+
+[Expected results]
+ Buttons should be clickable and should mark the document as complete
+
+[Additional information]
+ See attached logs and screenshot...
+
+[Is this Breakage?]
+ No, new implementation
+ 
+[Severity: How does this problem impact the customer/user?]
+ 6. Severe GUI, usability, and accessibility issue
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 9. High
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ None
+
+[Impact Sizing (in days)]
+ Less than a day

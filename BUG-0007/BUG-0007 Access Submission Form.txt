@@ -1,0 +1,41 @@
+ViscanScript [Components Testing]: Access Submission Form Hard to Access
+
+[Summary]
+  Accessing Submission Form is not accessible for users that are not well versed with web browsing or computers
+
+[Precondition]
+ Software version
+ Software configuration
+ Hardware specifications
+ Network configuration
+
+[Steps to reproduce]
+ 1. Navigate to Dashboard or Form
+
+
+[Actual results]
+ No way to access Home Page again after clicking either Form or Dashboard
+
+[Expected results]
+ There should be a button to link back to home or to the dashboard
+
+[Additional information]
+ See attached logs and screenshot...
+
+[Is this Breakage?]
+ No, new implementation
+ 
+[Severity: How does this problem impact the customer/user?]
+ 10. Severe GUI, usability, and accessibility issue
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 10. High
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ None
+
+[Impact Sizing (in days)]
+ Less than a day

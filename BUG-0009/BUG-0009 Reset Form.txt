@@ -1,0 +1,41 @@
+ViscanScript [Dashboard Testing]: Search Function Not Implemented Properly
+
+[Summary]
+  After populating all the fields and then clicking reset form, it does not clear the fields and reset the form.
+
+[Precondition]
+ Software version
+ Software configuration
+ Hardware specifications
+ Network configuration
+
+[Steps to reproduce]
+ 1. Navigate Form
+ 2. Populate all the fields in the form
+ 3. Try clicking the reset button in the form
+
+
+
+[Actual results]
+ Button does not work to reset fields
+
+[Expected results]
+ Button should reset form and clear fields
+
+[Is this Breakage?]
+ No, new implementation
+ 
+[Severity: How does this problem impact the customer/user?]
+ 5. Severe GUI, usability, and accessibility issue
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 4. Low, limited to a specific set of users
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ None
+
+[Impact Sizing (in days)]
+ Less than a day
